@@ -8,7 +8,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         while (true) {
 
-            System.out.print("Введите операцию: ");
+            System.out.print("Введите операцию или end для завершения работы: ");
             String operation = in.next();
             if (operation.equals("end")) {
                 break;
